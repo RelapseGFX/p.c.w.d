@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>pcwd site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <svg class="logopath" width="172" height="50" viewBox="0 0 172 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.1823 1.00445C18.1976 1.16432 18.1698 1.32459 18.1419 1.48481L18.1419 1.48499L18.1419 1.48505C18.1304 1.55122 18.1188 1.61754 18.1104 1.68366C18.0918 1.82775 18.0876 1.96983 18.0834 2.11147L18.0826 2.13925C18.074 2.51778 18.0435 2.89541 17.9911 3.27032C17.9636 3.38881 17.9615 3.51176 17.9852 3.63132C17.9885 3.64956 17.996 3.66682 18.0072 3.68175C18.0185 3.69668 18.0331 3.70887 18.0499 3.71736C18.0695 3.72295 18.0901 3.72355 18.11 3.71913C18.283 3.69814 18.4499 3.64391 18.6011 3.55955C18.7523 3.47518 18.8849 3.36235 18.9913 3.22749C19.0976 3.09264 19.1756 2.93843 19.2208 2.77369C19.2661 2.60895 19.2776 2.43692 19.2548 2.26746C19.2444 2.18827 19.2252 2.11038 19.1977 2.03516C19.1709 1.96141 19.1346 1.89234 19.0982 1.82301C19.0672 1.76405 19.0361 1.70482 19.0106 1.64218C18.9544 1.49596 18.9125 1.34493 18.8854 1.19111C18.8477 1.03112 18.8229 0.868514 18.8114 0.704827C18.8087 0.63889 18.8104 0.572171 18.812 0.505507V0.50548V0.505454V0.505427V0.505402V0.505376V0.50535V0.505324C18.8159 0.348782 18.8197 0.192306 18.7679 0.0456023C18.7384 0.0176466 18.6994 0.00141619 18.6584 8.84019e-05C18.6175 -0.00123941 18.5777 0.0124304 18.5466 0.0384227C18.4865 0.0926328 18.4415 0.161043 18.416 0.237177C18.2938 0.477915 18.2148 0.737441 18.1823 1.00445ZM18.1823 1.00445C18.1795 1.02747 18.177 1.05054 18.1749 1.07366L18.1768 0.959097C18.179 0.97421 18.1809 0.989327 18.1823 1.00445ZM20.6906 1.33334C20.5314 1.97132 20.4305 2.62218 20.389 3.27825L20.3869 3.33571C20.3836 3.43152 20.3803 3.52733 20.3697 3.62052C20.3506 3.76933 20.3212 3.91667 20.2819 4.06153L20.1625 4.54249C20.2003 4.56702 20.244 4.58125 20.2892 4.58373C20.3343 4.58622 20.3793 4.57685 20.4193 4.5566C20.4989 4.51522 20.5685 4.45764 20.6235 4.38771C20.8591 4.10567 21.0662 3.80188 21.242 3.48056C21.2963 3.39587 21.3428 3.30662 21.381 3.21384C21.4277 3.07944 21.452 2.93845 21.4531 2.79626C21.4542 2.36533 21.3764 1.93728 21.2232 1.53249C21.2137 1.5048 21.2042 1.4713 21.1938 1.43482L21.1938 1.43474L21.1938 1.4347L21.1938 1.43466L21.1938 1.43463L21.1938 1.43462C21.1515 1.28598 21.095 1.08757 20.9738 1.03103C20.7861 0.939301 20.7186 1.20604 20.6906 1.33334ZM23.7533 2.0732C23.8648 1.95839 24.0011 1.84086 24.163 1.84769C24.1912 1.84753 24.2192 1.85327 24.245 1.86454C24.2708 1.87581 24.2939 1.89235 24.3127 1.91304C24.3505 1.97433 24.3624 2.0475 24.3458 2.11695C24.2465 2.98566 23.7593 3.77578 23.1316 4.39452C22.9544 4.58191 22.7443 4.73673 22.5113 4.85175C22.3914 4.90536 22.2866 4.95041 22.2848 4.78448C22.3015 4.64037 22.338 4.49922 22.3933 4.36485C22.561 3.82092 22.8099 3.30465 23.132 2.83272C23.316 2.56222 23.5239 2.30808 23.7533 2.0732ZM16.9333 4.76368C17.6825 5.18511 18.4644 5.548 19.2715 5.84893C20.4959 6.33223 21.7375 6.77518 22.9782 7.21774C23.2797 7.33212 23.5875 7.43004 23.8999 7.51106C24.26 7.59711 24.6777 7.62702 24.9619 7.39606C24.9929 7.37561 25.015 7.34453 25.0238 7.30888C25.0253 7.28826 25.022 7.26755 25.014 7.24834C24.9238 6.98321 24.632 6.8448 24.3683 6.73976C22.6361 6.05304 20.8483 5.51673 19.061 4.98056L19.061 4.98055C18.531 4.82156 18.001 4.66257 17.4726 4.49969C17.4396 4.48944 17.3811 4.46619 17.3089 4.43753C17.0637 4.34012 16.661 4.18014 16.5662 4.25496C16.388 4.3924 16.8263 4.69856 16.9333 4.76368ZM25.1459 4.60492L25.1129 4.6499C25.0243 4.77088 24.935 4.89126 24.8456 5.0118L24.8455 5.01185L24.8455 5.0119L24.8454 5.01196L24.8446 5.01311C24.7041 5.20249 24.5632 5.39243 24.4243 5.58547C24.3403 5.7025 24.3682 5.71479 24.4391 5.74609C24.4635 5.75688 24.4931 5.76992 24.5249 5.7903C24.5605 5.8133 24.5402 5.87289 24.5208 5.93015C24.4982 5.99657 24.4766 6.05986 24.5447 6.05925C24.625 6.0503 24.7011 6.01955 24.7644 5.97046L25.4352 5.5313C25.8108 5.30617 26.1574 5.03779 26.4677 4.73186C26.765 4.41369 26.9881 4.00953 26.9987 3.57802C26.905 3.54792 26.8088 3.60535 26.7335 3.67032L26.716 3.68556C26.6462 3.74643 26.5731 3.81013 26.482 3.81289C26.6176 3.63548 26.7138 3.43215 26.7645 3.21586C26.66 3.21671 26.56 3.25664 26.485 3.32749C26.1268 3.5728 25.795 3.85312 25.4948 4.16417C25.3677 4.3028 25.2567 4.45399 25.1459 4.60492ZM3.1703 29.859L3.24479 29.9305L9.83492 35.281C9.95044 35.3648 10.0923 35.4042 10.2345 35.3917C10.3767 35.3793 10.5097 35.3159 10.6089 35.2133L14.9056 30.4506C15.3409 29.9836 15.9338 29.6945 16.5698 29.6388C17.2057 29.5832 17.8398 29.765 18.3496 30.1492L23.4081 34.0935C23.5232 34.1783 23.6654 34.2183 23.8079 34.2058C23.9503 34.1933 24.0834 34.1293 24.182 34.0258L29.7478 27.6118C29.7649 27.5831 29.7837 27.5554 29.8039 27.5289L31.3406 25.7616C31.6617 25.3942 31.9053 24.9657 32.0567 24.5018C32.2081 24.0379 32.2642 23.5483 32.2217 23.0622C32.1792 22.5761 32.0389 22.1036 31.8092 21.673C31.5796 21.2425 31.2653 20.8628 30.8853 20.5567L17.4565 9.6338C16.6929 9.01933 15.7214 8.72391 14.745 8.80933C13.7686 8.89475 12.8631 9.3544 12.2178 10.0921L0.894658 23.1806C0.573659 23.5476 0.330156 23.9756 0.178778 24.4391C0.0274006 24.9026 -0.0287276 25.3918 0.0137659 25.8776C0.0562593 26.3633 0.196497 26.8354 0.426055 27.2655C0.655612 27.6956 0.969751 28.0749 1.3496 28.3806L3.1703 29.859ZM30.8333 29.3251L25.648 35.2964C25.2229 35.775 24.6327 36.0754 23.9955 36.1375C23.3584 36.1996 22.7213 36.0187 22.2118 35.6311L17.1582 31.6864C17.0352 31.603 16.8872 31.5645 16.7392 31.5774C16.5911 31.5904 16.4521 31.654 16.3455 31.7575L12.0536 36.5198C11.6192 36.99 11.0232 37.2788 10.3849 37.3283C9.74664 37.3778 9.11322 37.1844 8.61144 36.7869L2.46802 31.8067L1.72393 32.6614C1.40485 33.0293 1.163 33.4576 1.01277 33.9208C0.86254 34.384 0.806994 34.8727 0.849437 35.3578C0.891879 35.843 1.03144 36.3146 1.25983 36.7447C1.48821 37.1748 1.80075 37.5546 2.17887 37.8614L15.6032 48.7896C16.3674 49.4022 17.3409 49.6915 18.3155 49.5954C19.2904 49.5201 20.1972 49.0664 20.8419 48.3313L32.1695 35.2376C32.4905 34.8706 32.734 34.4425 32.8854 33.9791C33.0367 33.5156 33.0929 33.0263 33.0504 32.5406C33.0079 32.0549 32.8677 31.5828 32.6381 31.1527C32.4085 30.7226 32.0944 30.3433 31.7146 30.0376L30.8333 29.3251Z" fill="#263238"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M81.1511 11.9632C80.7143 11.5644 80.138 11.3536 79.5469 11.3765C79.2555 11.3641 78.9645 11.4095 78.6907 11.51C78.4169 11.6106 78.1657 11.7643 77.9516 11.9624C77.7375 12.1605 77.5647 12.3989 77.4432 12.6641C77.3217 12.9293 77.2539 13.2159 77.2437 13.5074C77.2572 13.7953 77.3277 14.0776 77.4511 14.3381C77.5745 14.5985 77.7484 14.8319 77.9626 15.0248C78.1768 15.2176 78.4271 15.366 78.6991 15.4615C78.971 15.5569 79.2592 15.5974 79.5469 15.5807C80.1312 15.6146 80.7051 15.4153 81.1427 15.0266C81.5803 14.6379 81.8458 14.0916 81.8811 13.5074C81.8502 12.9167 81.5879 12.3619 81.1511 11.9632ZM77.6239 17.8265V32.0617H81.5054V17.8265H77.6239ZM44.9715 32.0624V13.0042H55.5373C58.2208 13.0042 60.0289 13.7601 61.2844 15.1041C62.3231 16.2159 62.8784 17.6943 62.8287 19.215C62.779 20.7357 62.1283 22.1747 61.0192 23.2163C59.8256 24.3525 58.1324 25.051 55.5373 25.051H49.1448V32.0536L44.9715 32.0624ZM49.1448 16.5408V21.532H55.6788C56.4758 21.5866 57.2622 21.3244 57.8671 20.8025C58.3438 20.3364 58.6171 19.7008 58.6275 19.0342C58.6275 18.3919 58.3769 17.7749 57.929 17.3145C57.6299 17.0329 57.2752 16.817 56.8876 16.6807C56.5001 16.5445 56.0883 16.4908 55.6788 16.5231L49.1448 16.5408ZM69.6266 22.9021V32.0621H65.7186V21.8455C65.7094 20.4948 65.5732 19.1478 65.3118 17.8226H68.8485C68.982 18.5259 69.0794 19.2357 69.1403 19.949C70.0245 18.4901 71.0368 17.354 72.8759 17.354C73.6458 17.3381 74.4045 17.5404 75.0642 17.9375L73.9811 21.4963C73.3627 21.2699 72.7152 21.1329 72.0581 21.0896C71.0589 21.094 70.4091 21.8809 69.6266 22.9021ZM96.7043 21.5892C95.0928 20.8285 93.3472 20.3928 91.5673 20.3071C90.1084 20.3071 89.2065 20.7713 89.2065 21.6776C89.2065 22.8712 90.7804 22.9596 92.0049 23.0038C94.5735 23.1232 98.8617 23.415 98.8617 27.5264C98.8617 30.9127 95.9174 32.544 92.0933 32.544C89.5259 32.5308 87.016 31.7821 84.8608 30.3867L86.2313 27.6148C87.6018 28.4636 89.905 29.5423 92.1508 29.5423C93.9634 29.5423 94.9846 28.8703 94.9846 27.88C94.9846 26.5538 93.2163 26.3902 91.9784 26.3018C88.8838 26.1294 85.3471 25.9216 85.3471 22.071C85.3471 18.4548 88.5257 17.2877 91.4125 17.2877C93.708 17.3543 95.9683 17.8694 98.0659 18.804L96.7043 21.5892ZM102.239 11.6424V32.0624H106.121V22.4956C106.793 21.6203 107.955 20.6566 109.357 20.6566C110.758 20.6566 111.753 21.5584 111.753 22.6415V32.0624H115.661V22.4956C115.661 19.516 113.473 17.3586 110.232 17.3586C108.512 17.3586 107.142 18.2914 106.121 19.3126V11.6424H102.239ZM118.384 17.8271H120.864V13.7997H124.746V17.8271H128.243V20.7139H124.746V28.0968C124.746 28.9809 125.298 29.3479 126.289 29.3479C126.896 29.3273 127.5 29.2593 128.097 29.1445L128.389 32.0623C127.836 32.5043 126.059 32.6193 125.294 32.6193C123.194 32.6193 120.873 31.5671 120.873 28.3885V20.7139H118.393L118.384 17.8271ZM135.276 11.9632C134.839 11.5644 134.263 11.3536 133.671 11.3765C133.38 11.3641 133.089 11.4095 132.815 11.51C132.541 11.6106 132.29 11.7643 132.076 11.9624C131.862 12.1605 131.689 12.3989 131.568 12.6641C131.446 12.9293 131.378 13.2159 131.368 13.5074C131.382 13.7953 131.452 14.0776 131.576 14.3381C131.699 14.5985 131.873 14.8319 132.087 15.0248C132.301 15.2176 132.552 15.366 132.824 15.4615C133.096 15.5569 133.384 15.5974 133.671 15.5807C134.256 15.6146 134.83 15.4153 135.267 15.0266C135.705 14.6379 135.97 14.0916 136.006 13.5074C135.975 12.9167 135.713 12.3619 135.276 11.9632ZM131.748 17.8265V32.0617H135.626V17.8265H131.748ZM148.375 17.3582C149.057 17.3403 149.736 17.4604 150.371 17.7115C151.005 17.9626 151.582 18.3394 152.068 18.8192C152.553 19.2991 152.936 19.8721 153.194 20.5038C153.452 21.1355 153.58 21.8129 153.57 22.4953V32.062H149.662V22.6411C149.662 21.558 148.698 20.6562 147.296 20.6562C145.895 20.6562 144.847 21.589 144.029 22.4953V32.062H140.148V21.894C140.152 20.5323 140.016 19.1738 139.741 17.8401H143.278C143.412 18.4556 143.51 19.0786 143.57 19.7057C144.135 18.9699 144.863 18.375 145.697 17.9678C146.531 17.5605 147.447 17.3519 148.375 17.3582ZM164.405 17.3584C162.112 17.3828 159.85 17.8999 157.774 18.8748L158.95 21.7483C160.552 20.9551 162.301 20.5034 164.087 20.4221C165.807 20.4221 167.089 21.094 167.089 22.5794V24.0118C166.041 23.1939 164.525 22.8447 163.008 22.8447C159.038 22.8447 156.762 24.9181 156.762 27.5706C156.762 30.3425 158.95 32.4114 162.394 32.4114C163.287 32.4462 164.177 32.2872 165.002 31.9453C165.828 31.6034 166.57 31.0868 167.177 30.4309C167.257 30.9818 167.374 31.5267 167.526 32.0622H171.381C171.101 31.1652 170.962 30.23 170.97 29.2903V21.6776C170.97 18.468 167.672 17.3584 164.405 17.3584ZM167.106 26.6068V27.9773C166.067 28.9692 164.692 29.5328 163.256 29.5555C161.624 29.5555 160.661 28.7642 160.661 27.5706C160.661 26.4919 161.505 25.5856 163.813 25.5856C164.994 25.5498 166.153 25.9092 167.106 26.6068Z" fill="#263238"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M134.303 40.5034C133.088 39.5236 131.561 39.0125 130 39.063C128.506 39.063 126.977 39.5965 126.977 41.0547C126.977 42.5109 128.892 42.6193 130.775 42.7258L130.782 42.7263L130.847 42.7308C132.879 42.873 136.082 43.0972 136.082 46.1761C136.082 48.8791 133.681 49.9639 130.889 49.9639C128.619 50.0037 126.424 49.1476 124.781 47.581L125.723 46.514C127.103 47.8853 128.971 48.6528 130.916 48.648C132.89 48.648 134.526 47.9366 134.526 46.3718C134.526 44.629 132.747 44.3623 130.774 44.22L130.766 44.2196C128.261 44.0596 125.439 43.8795 125.439 41.1969C125.439 38.5117 127.982 37.7471 130.062 37.7471C131.926 37.727 133.744 38.3207 135.237 39.4365L134.303 40.5034ZM78.0741 38.0492V49.6614H84.9916C86.5387 49.6614 87.3567 49.2524 87.9791 48.6656C88.3113 48.3603 88.5761 47.9892 88.7567 47.5758C88.9374 47.1625 89.0299 46.716 89.0283 46.2649C89.0587 45.59 88.8483 44.9262 88.4346 44.392C88.021 43.8579 87.431 43.488 86.7699 43.3485C87.2642 43.1587 87.688 42.8214 87.9839 42.3824C88.2798 41.9433 88.4333 41.4238 88.4237 40.8945C88.4233 40.5523 88.3537 40.2136 88.2193 39.8989C88.0848 39.5842 87.8882 39.2998 87.6413 39.0629C87.2619 38.7131 86.8162 38.4431 86.3305 38.2689C85.8447 38.0948 85.329 38.0201 84.8138 38.0492H78.0741ZM79.6212 43.0329V39.4363L84.6537 39.423C84.959 39.4015 85.2654 39.4408 85.5554 39.5385C85.8453 39.6361 86.1131 39.7903 86.3431 39.992C86.6518 40.3118 86.824 40.739 86.8233 41.1835C86.8235 41.4311 86.7749 41.6763 86.6803 41.9052C86.5857 42.134 86.447 42.342 86.272 42.5172C86.0838 42.6922 85.8627 42.8279 85.6215 42.9164C85.3803 43.005 85.1238 43.0446 84.8671 43.0329H79.6212ZM79.6212 48.2922V44.291L85.2762 44.2732C85.5746 44.2727 85.8702 44.3322 86.1451 44.4483C86.4201 44.5644 86.6689 44.7347 86.8766 44.949C87.225 45.2916 87.4233 45.7585 87.4279 46.2471C87.4269 46.5099 87.3728 46.7698 87.2689 47.0112C87.165 47.2526 87.0134 47.4706 86.8233 47.652C86.3377 48.0908 85.6988 48.3208 85.045 48.2922H79.6212ZM46.6519 38.0494L49.5327 47.332H49.6216L52.5913 38.0494H53.765L56.7347 47.332H56.8414L59.7222 38.0494H61.3227L57.5883 49.6616H56.0056L53.2048 40.948H53.0981L50.2884 49.6616H48.7058L44.9714 38.0494H46.6519ZM71.0321 44.2378H66.3374V48.2923H74.5442V49.6616H64.7903V38.0494H74.1263V39.4187H66.3374V42.8685H71.0321V44.2378ZM97.6885 49.6616V38.0494H102.846C105.015 38.0494 106.224 38.6718 107.291 39.6676C108.342 40.8287 108.916 42.3429 108.899 43.9084C108.883 45.474 108.277 46.9758 107.202 48.1145C106.135 49.0747 105.033 49.6438 102.863 49.6438L97.6885 49.6616ZM102.792 48.2923C104.464 48.2923 105.157 47.8477 105.975 47.172C106.831 46.2788 107.297 45.0831 107.273 43.8466C107.301 42.6406 106.854 41.472 106.029 40.5923C105.228 39.8632 104.446 39.4187 102.792 39.4187H99.2356V48.3101L102.792 48.2923ZM114.298 44.2378H119.001V42.8685H114.298V39.4187H122.087V38.0494H112.751V49.6616H122.496V48.2923H114.298V44.2378ZM139.745 38.0494V49.6616H141.292V38.0494H139.745ZM155.589 40.6639C154.442 39.6736 152.979 39.125 151.464 39.1168C150.836 39.1061 150.213 39.2214 149.631 39.4559C149.049 39.6905 148.521 40.0396 148.076 40.4824C147.632 40.9252 147.281 41.4528 147.044 42.0338C146.807 42.6148 146.689 43.2375 146.698 43.8649C146.698 46.3544 148.547 48.5951 151.588 48.5951C152.927 48.6184 154.24 48.2203 155.34 47.457V44.7006H151.588V43.3314H156.763V48.2217C155.247 49.3546 153.41 49.9772 151.517 49.9999C147.872 49.9999 145.08 47.2614 145.08 43.8826C145.08 40.5039 147.898 37.7476 151.455 37.7476C153.367 37.7706 155.21 38.4627 156.665 39.7037L155.589 40.6639ZM171.461 49.6616V38.0494H169.887V46.9408L162.507 38.0494H161.102V49.6616H162.676V40.7702L170.056 49.6616H171.461Z" fill="#263238"/>
+          </svg>
+        </a>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>    
+        </label>
+        <div class="nav-right">
+          <nav class="navbar">
+            <a class="active" href="#">Ballina</a>
+            <a href="services.html">Sherbimet</a>
+            <a href="about.html">Rreth Nesh</a>
+            <a href="index.html#projects">Projektet</a>
+            <a href="contact.html">Kontakti</a>
+          </nav>
+          <button id="dark-mode-toggle" class="dark-mode-toggle">
+            <img class="iconswitch" id="iconswitch" src="..//assets/images/sun.svg" alt="Moon and sun">
+          </button>
+        </div>
+      </div>
+    </header>
+    <section id="hero" class="hero">
+      <div class="bghero-image">
+        <div class="hero-wrapper">
+          <div class="upper-part">
+            <h1 class="tittle-hero">Web design për biznese të vogla + development</h1>
+            <p class="paragraph-hero">Ne ofrojmë website unike me rezultate të kënaqshme — duke filluar prej €35/muaj.</p>
+            <a href="#price"><div class="hero-button"><button class="primary-button">Shiko çmimet</button></div></a>
+          </div>
+          <img class="hero-illustration light" src="..//assets/images/hero-illustration.svg" alt="web design illustration">
+          <img class="hero-illustration dark" src="..//assets/images/hero-illustration-dark.svg"  alt="">
+        </div>
+      </div>
+    </section>
+    <section id="whatwedo" class="whatwedo">
+      <div class="container">
+        <div class="wrapper">
+          <div class="upper-part">
+          <h2 class="tittle-services">Qfarë bëjmë ne</h2>
+          <p class="text-services">Ne krijojmë website prej fillimit për një performancë më të shpejtë, e cila ndikon në rritjen e vizitorëve të faqes suaj si dhe rritjen e fitimeve të biznesit tuaj. Që ju ndërkohë të fokusoheni vetëm në drejtimin e tij. <a href="services.html"><span style="font-weight: 500; color: var(--primary-color);">Lexo më shumë</span></p></a>
+          </div>
+          <div class="boxes-wrapper">
+          <div class="block-item">
+            <img class="block-icon iconlight" src="..//assets/images/webdesign.svg" alt="">
+            <img class="block-icon icondark" src="..//assets/images/webdesign-dark.svg" alt="">
+            <h3 class="title-block">Faqe e volitshme</h3>
+            <p class="text-block">Përmbajtja juaj online nuk duhet të jetë e dobët, duke shpresuar se funksionon. Ne e mendojmë atë mirë, dhe e vendosim në një radhitje të caktuar për të tërhequr më shumë klientë.</p>
+          </div>
+          <div class="block-item">
+            <img class="block-icon iconlight" src="..//assets/images/responsive.svg" alt="">
+            <img class="block-icon icondark" src="..//assets/images/responsive-dark.svg" alt="">
+            <h3 class="title-block">Faqe fleksibile</h3>
+            <p class="text-block">Faqja juaj do të përshtatet në të gjitha llojet e pajisjeve si p.sh: telefon, laptop, kompjuter, si dhe tablet, në mënyrë që klientët tuaj të ju gjejnë më lehtë.</p>
+          </div>
+          <div class="block-item">
+            <img class="block-icon iconlight" src="..//assets/images/optimized.svg" alt="">
+            <img class="block-icon icondark" src="..//assets/images/optimized-dark.svg" alt="">
+            <h3 class="title-block">Faqe për telefon</h3>
+            <p class="text-block">80% e internetit janë përdorues të telefonave celularë. Ne marrim masat e duhura që biznesi juaj të shfaqet më lart kur kërkohet dhe të performojë më mirë në makinat e kërkimit (Google).</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <div class="wrapper">
+          <div class="upper-part">
+          <h2 class="tittle-features"><span style="color: var(--primary-color);">35 Euro per muaj,</span> 6 muaj minimumi i kontrates</h2>
+          <p class="text-features">0 Euro paradhenie per nje website te biznesit te vogel me 5 faqe. Nese ju nevojitet me shume, ne do ju japim nje cmim tjeter duke u bazuar ne madhesine e projektit dhe kohen qe na nevojitet per ta perfunduar. Domani dhe permbajtja jane prone e juaja.<br><br>Anuloni kontraten pas perfundimit te afatit pa ndonje shqetesim.</p>
+          </div>
+          <div class="global-wrapper">
+          <div class="block-wrapper">
+            <div class="feature-block">
+              <div class="feature-icon"><img src="../assets/images/webdesign-icon.svg" alt=""></div>
+              <div class="feature-right">
+                <h3 class="title-feature">Web design & development</h3>
+                <p class="text-feature">Përfshin 40 orë të dizajnit, zhvillimit dhe testimit të webfaqes. Përfito më shumë në një çmim të vetëm.</p>
+              </div>
+            </div>
+            <div class="feature-block">
+              <div class="feature-icon"><img src="../assets/images/hosting-icon.svg" alt=""></div>
+              <div class="feature-right">
+                <h3 class="title-feature">Hostimi falas</h3>
+                <p class="text-feature">Hostim falas për webfaqe sipas nevojave të biznesit. Hosti është si një banesë ku webfaqja juaj pushon.</p>
+              </div>
+            </div>
+            <div class="feature-block">
+              <div class="feature-icon"><img src="../assets/images/changes-icon.svg" alt=""></div>
+              <div class="feature-right">
+                <h3 class="title-feature">Ndryshime pakufi</h3>
+                <p class="text-feature">Ndrysho çfarë ke nevojë në çdo kohë dhe do të përfundohet atë ditë. Thirr kurdo ditë apo natë.</p>
+              </div>
+            </div>
+            <div class="feature-block">
+              <div class="feature-icon"><img src="../assets/images/analytics-icon.svg" alt=""></div>
+              <div class="feature-right">
+                <h3 class="title-feature">Google Analytics</h3>
+                <p class="text-feature">Ne instalojmë Google Analytics falas për të parë prejardhjen e përdoruesve.</p>
+              </div>
+            </div>
+          </div>
+          <img class="iconlight" src="../assets/images/guy-in-laptop.svg" alt="Guy working illustration">
+          <img class="icondark" src="../assets/images/guy-in-laptop-dark.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="process">
+      <div class="container">
+        <div class="global-wrapper s">
+          <div class="text-left">
+            <h2>Si funksionon?</h2>
+            <p class="margintop-1em">Konsultoheni me ekipen — Rishikoni përfundimisht — Publikoni faqen.</p>
+          </div>
+          <div class="items-right">
+            <div class="item">
+              <div class="circle">1</div>
+              <div class="text-right">
+                <h3 class="black">Konsultoheni me ekipen</h3>
+                <p class="paddingtop-05em black">Ne ju bejme disa pyetje rreth biznesit tuaj dhe qfare ofroni.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="circle">2</div>
+              <div class="text-right">
+                <h3 class="black">Krijimi i webfaqes</h3>
+                <p class="paddingtop-05em black">Pastaj ne fillojme me krijimin e webfaqes. Ne do ta rishikojme nese ka nevoje per ndryshime.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="circle">3</div>
+              <div class="text-right">
+                <h3 class="black">Publikimi i faqes</h3>
+                <p class="paddingtop-05em black">Ne fund ne ja u dergojme nje link per ta rishikuar perseri dhe nese eshte ne rregull e publikojme.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="wrapper">
+          <h2 class="tittle-projects">Projektet e mëparshme</h2>
+          <div class="boxes-wrapper">
+            <div class="projects-item">
+              <img class="projects-img" src="..//assets/images/tonninvestments.jpg" alt="">
+              <div class="up-part">
+                <h4>Tonn Investments</h4>
+                <p class="lo">Hamburg, Gjermani</p>
+              </div>
+              <p class="description">Marka Tonn Investments bashkon shërbimet e mëposhtme financiare dhe kompanitë e pasurive të paluajtshme.</p>
+              <div class="margin-top"><button class="secondary-button">Së shpejti</button></div>
+            </div>
+            <div class="projects-item">
+              <img class="projects-img" src="..//assets/images/rrugemar.jpg" alt="">
+              <div class="up-part">
+              <h4>Rrugemar</h4>
+              <p class="lo">Pejë</p>
+              </div>
+              <p class="description">Rrugemar është një platformë ankandesh ku mund të bëni oferta për të blerë makina të riparuara dhe të përdorura.</p>
+              <div class="margin-top"><button class="secondary-button">Së shpejti</button></div>
+            </div>
+            <div class="projects-item">
+              <img class="projects-img" src="..//assets/images/mesokrypto.jpg" alt="">
+              <div class="up-part">
+              <h4>Mësokrypto</h4>
+              <p class="lo">Prizren</p>
+              </div>
+              <p class="description">Marka Tonn Investments bashkon shërbimet e mëposhtme financiare dhe kompanitë e pasurive të paluajtshme.</p>
+              <div class="margin-top"><button class="secondary-button">Së shpejti</button></div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <div class="global-wrapper">
+          <img src="../assets/images/about.jpg" alt="" class="about-us">
+          <div class="right-side">
+            <h2>Rreth Nesh</h2>
+            <p class="margintop-2em">Ideja rreth biznesit ka lindur spontanisht kur gjate bashkpunimit me nje prej klienteve tane ai na pyeti se a ka mundesi te paguhet me keste. Pas kesaj na erdhi edhe idea per te krijuar website, mirepo me nje nyje. Ne vend se te ju kerkojme nje shume paraprake klienteve, ne thjeshte do ta kishim nje shume te caktuar mujore ne menyre qe klientet ta kene me te lehte. <br><br> Ne te njejten kohe bizneset do te kene me shume mundesi te krijojne prezencen tyre online pa u shqetesuar shume per koston e saj. <span style="color: var(--primary-color); font-weight: 500;"><a href="about.html">Lexo me shume</a></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pricing">
+      <div id="price" class="container">
+        <div class="wrapper">
+          <div class="upper-part">
+            <h2>Çmimet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="box-wrapper">
+            <div class="pricing-box">
+              <h3 class="plan">Pagesa me para në dorë</h3>
+              <div class="lower-info">
+                <p class="legend">Sipas marrëveshjes</p>
+                <div class="price-tag">
+                  <h1 class="price">Ofertë</h1>
+                  <div class="empty"></div>
+              </div>
+            </div>
+            <ul class="benefits">
+              <div class="benefit-line">
+                <div class="benefit-icon"><img src="../assets/images/tick-icon.svg" alt=""></div>
+                <li class="benefits-item">Dizajnuar me porosi</li>
+              </div>
+              <div class="benefit-line">
+                <div class="benefit-icon"><img src="../assets/images/tick-icon.svg" alt=""></div>
+                <li class="benefits-item">Çmimi fiks i projektit</li>
+              </div>
+              <div class="benefit-line">
+                <div class="benefit-icon"><img src="../assets/images/tick-icon.svg" alt=""></div>
+                <li class="benefits-item">Ndryshim i përmbajtjes</li>
+              </div>
+              <div class="benefit-line">
+                <div class="benefit-icon"><img src="../assets/images/tick-icon.svg" alt=""></div>
+                <li class="benefits-item">Integrim i Shopify</li>
+              </div>
+              <div class="benefit-line">
+                <div class="benefit-icon"><img src="../assets/images/tick-icon.svg" alt=""></div>
+                <li class="benefits-item">E lehtë për tu përdorur</li>
+              </div>
+            </ul>
+            <div class="get-started"><a href="contact.html"><button class="primary-button">Na kontaktoni</button></a></div>
+            </div>
+            <div class="marked-box">
+              <h3 class="plan">Abonimi</h3>
+              <div class="lower-info">
+                <p class="legend">5 nenfaqe</p>
+                <div class="price-tag">
+                  <div class="price-info">
+                  <h1 class="price">35</h1>
+                  <span class="duration">/muaji</span>
+                  </div>
+                  <h3 class="currency">EUR</h3>
+                </div>
+              </div>
+              <ul class="benefits">
+                <div class="benefit-line">
+                <div class="benefit-icon"><img src="../assets/images/tick-icon.svg" alt=""></div>
+                <li class="benefits-item">Ndryshime pakufi</li>
+                </div>
+                <div class="benefit-line">
+                <div class="benefit-icon"><img src="../assets/images/tick-icon.svg" alt=""></div>
+                <li class="benefits-item">Hostim falas</li>
+                </div>
+                <div class="benefit-line">
+                <div class="benefit-icon"><img src="../assets/images/tick-icon.svg" alt=""></div>
+                <li class="benefits-item">24/7 support</li>
+                </div>
+                <div class="benefit-line">
+                <div class="benefit-icon"><img src="../assets/images/tick-icon.svg" alt=""></div>
+                <li class="benefits-item">Google Analytics</li>
+                </div>
+                <div class="benefit-line">
+                <div class="benefit-icon"><img src="../assets/images/tick-icon.svg" alt=""></div>
+                <li class="benefits-item">100 shpejtësi të faqes</li>
+                </div>
+              </ul>
+              <div class="get-started"><a href="contact.html"><button class="primary-button">Na kontaktoni</button></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="forwho">
+      <div class="container">
+        <div class="wrapper">
+          <h2 class="tittle-who">Për kë është i përshtatshëm PrishtinaWeb?</h2>
+          <div class="grid">
+            <div class="forwho-item">
+              <img class="forwho-icon iconlight" src="../assets/images/coffe-restaurant.svg" alt="">
+              <img class="forwho-icon icondark" src="../assets/images/coffe-restaurant-dark.svg" alt="">
+              <div class="tittle-forwho"><h3>Kafiteritë & Restaurantet</h3></div>
+              <p>Paraqit ushqimin & pijet të cilat i ofroni për t'i parë vizitorët para se të shkelin në hapësirën tuaj.</p>
+            </div>
+            <div class="forwho-item">
+              <img class="forwho-icon iconlight" src="../assets/images/accountant-icon.svg" alt="">
+              <img class="forwho-icon icondark" src="../assets/images/accountant-icon-dark.svg" alt="">
+              <div class="tittle-forwho"><h3>Kontabilistët</h3></div>
+              <p>Jepni informata rreth shërbimeve të kontabilitetit, eksperiencës dhe kualifikimeve.</p>
+            </div>
+            <div class="forwho-item">
+              <img class="forwho-icon iconlight" src="../assets/images/lawfirm-icon.svg" alt="">
+              <img class="forwho-icon icondark" src="../assets/images/lawfirm-icon-dark.svg" alt="">
+              <div class="tittle-forwho"><h3>Firmat ligjore</h3></div>
+              <p>Dëshmoni se jeni partner kredibil dhe keni vlera të dobishme për një bashkëpunëtor të ri.</p>
+            </div>
+            <div class="forwho-item">
+              <img class="forwho-icon iconlight" src="../assets/images/building-icon.svg" alt="">
+              <img class="forwho-icon icondark" src="../assets/images/building-icon-dark.svg" alt="">
+              <div class="tittle-forwho"><h3>Kompanitë e ndërtimit</h3></div>
+              <p>Tregoni se jeni lider i vërtetuar për të realizuar dhe përfunduar projektet e dëshiruara.</p>
+            </div>
+            <div class="forwho-item">
+              <img class="forwho-icon iconlight" src="../assets/images/store-icon.svg" alt="">
+              <img class="forwho-icon icondark" src="../assets/images/store-icon-dark.svg" alt="">
+              <div class="tittle-forwho"><h3>Dyqanet e produkteve</h3></div>
+              <p>Publiko produktet & ofertat për të tërhequr më shumë shitje për biznesin tënd.</p>
+            </div>
+            <div class="forwho-item">
+              <img class="forwho-icon iconlight" src="../assets/images/hospital-icon.svg" alt="">
+              <img class="forwho-icon icondark" src="../assets/images/hospital-icon-dark.svg" alt="">
+              <div class="tittle-forwho"><h3>Klinikat private & Spitalet</h3></div>
+              <p>Shfaq se ofroni një mjedis të besueshëm dhe të sigurt për pacientët dhe familjet e tyre.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cta" class="cta">
+      <div class="cta-container">
+        <div class="cta-wrapper">
+          <svg class="leaf" width="207" height="120" viewBox="0 0 207 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M198.884 22.0135C199.179 21.539 199.467 21.0761 199.751 20.6311C199.92 20.3655 200.088 20.1022 200.254 19.8408C202.623 16.1235 204.748 12.7894 206.23 8.88768C202.842 9.7805 199.538 10.7419 196.311 11.8248C194.567 12.4285 192.812 13.0052 191.054 13.5835C189.065 14.2375 187.07 14.8934 185.077 15.5924C184.603 15.752 184.167 15.9558 183.729 16.1604C183.536 16.2504 183.343 16.3406 183.146 16.4272L183.468 17.0091C186.809 18.2701 190.15 19.5464 193.491 20.8381C195.111 21.4645 196.732 22.1443 198.368 22.8395C198.542 22.5612 198.714 22.2855 198.884 22.0135ZM196.206 26.0859C193.324 24.8806 190.455 23.7254 187.585 22.5701C185.446 21.7088 183.306 20.8474 181.161 19.9651C178.801 18.9925 176.978 18.8394 175.598 19.6817C174.274 20.4812 172.877 21.189 171.478 21.897C170.627 22.3284 169.775 22.7597 168.939 23.212C168.853 23.2579 168.759 23.2973 168.665 23.337C168.254 23.5095 167.831 23.6875 167.974 24.4219C168.494 24.9446 169.154 25.3062 169.874 25.4634C176.474 28.1568 183.089 31.0107 189.781 34.1398C189.922 33.9493 190.063 33.7587 190.205 33.5682C191.122 32.3305 192.039 31.0925 192.962 29.8588C193.036 29.7418 193.123 29.6338 193.222 29.5372C194.337 28.4909 195.317 27.3074 196.206 26.0859ZM187.947 36.6083C180.687 33.3834 173.421 30.133 166.15 26.8571C164.832 26.2674 163.775 26.053 163.008 26.4819C159.535 28.4014 156.071 30.3312 152.618 32.2712C152.55 32.3108 152.561 32.4677 152.572 32.6118C152.576 32.6626 152.58 32.7117 152.58 32.7536C152.663 32.8657 152.758 32.9685 152.863 33.0599L152.868 33.062C154.537 33.8271 156.206 34.5922 157.867 35.3573C165.085 38.6297 172.382 42.3361 179.759 46.4764C178.937 47.2626 178.086 48.0284 177.207 48.7738C173.139 46.821 169.085 44.8836 165.031 42.9921C161.932 41.5472 158.861 40.1547 155.788 38.7607C153.877 37.894 151.964 37.0268 150.043 36.146C148.013 35.2118 146.633 35.2041 145.446 35.8167C143.15 36.9972 140.789 38.0916 138.43 39.1853C137.268 39.7235 136.108 40.2616 134.955 40.8096C134.526 41.0177 134.122 41.2746 133.752 41.5754C133.696 41.6248 133.808 41.8883 133.892 42.0852C133.9 42.1022 133.907 42.1187 133.913 42.1344C133.986 42.2442 134.083 42.3358 134.197 42.4025C134.618 42.6016 135.032 42.7854 135.438 42.9462C137.138 43.6207 138.833 44.2799 140.527 44.9391C144.833 46.6148 149.138 48.2899 153.537 50.2134C157.668 52.036 161.828 54.0041 166.051 56.3397L162.541 58.5681C157.682 56.3239 152.858 54.2121 148.033 52.1003C143.507 50.1193 138.981 48.1381 134.427 46.0476C134.132 45.9182 133.836 45.7903 133.539 45.6621C132.695 45.2973 131.844 44.9297 130.994 44.516C129.66 43.8728 128.649 43.8115 127.883 44.2174C125.865 45.2571 123.84 46.2877 121.816 47.3178C120.159 48.1617 118.501 49.0053 116.848 49.8535C116.616 49.9985 116.416 50.1886 116.258 50.4125C116.113 50.6346 116.458 51.3545 116.879 51.5842C117.615 51.9671 118.35 52.3423 119.063 52.641C128.856 56.7532 138.794 61.4781 148.848 66.7084L149.177 66.8845C148.826 67.0999 148.476 67.3163 148.128 67.5334C148.709 67.1772 149.291 66.8231 149.875 66.4708C157.453 61.8914 164.901 57.1589 172.326 52.3957C177.106 49.3026 181.308 45.3968 184.74 40.8554C185.819 39.45 186.886 38.0319 187.947 36.6083ZM146.336 68.6395L142.028 66.6088C138.33 64.8765 134.634 63.1518 130.938 61.4269C125.549 58.9124 120.159 56.3976 114.764 53.8586C113.04 53.0468 111.53 52.5338 110.488 53.1617C107.231 55.1205 103.974 57.0359 100.691 58.9667C99.6101 59.6023 98.5263 60.2397 97.4388 60.8808C97.3458 60.9295 97.2638 60.9967 97.1979 61.0784C97.132 61.1601 97.0836 61.2544 97.0557 61.3556C97.056 61.5412 97.1086 61.723 97.2075 61.8801C97.3065 62.0372 97.4477 62.1633 97.615 62.2439C99.1303 62.9365 100.637 63.602 102.144 64.2682C102.604 64.4712 103.063 64.6743 103.523 64.8782C112.652 68.9193 121.942 73.6872 131.262 78.6543C136.186 75.1678 141.213 71.8281 146.336 68.6395ZM127.792 81.148C120.939 77.8153 114.093 74.4979 107.255 71.1958C105.382 70.2951 103.519 69.423 101.659 68.552C99.438 67.5125 97.2208 66.4745 94.9944 65.3912C93.1783 64.5029 91.9217 64.457 90.9868 65.1615C88.2888 67.1876 85.5694 69.1815 82.8504 71.175C81.5924 72.0974 80.3346 73.0197 79.079 73.945C79.0546 73.9615 79.03 73.9769 79.0056 73.9922C78.7921 74.1258 78.6007 74.2455 78.8414 74.9329C80.1951 75.7136 81.6221 76.36 83.1019 76.8626C93.278 81.2123 103.508 85.8606 113.937 91.2823C113.298 91.7133 112.658 92.1248 112.013 92.5389C111.513 92.8605 111.01 93.1836 110.504 93.5184C106.683 91.6652 102.872 89.835 99.071 88.0277C94.3174 85.779 89.596 83.6237 84.8734 81.4677C82.3106 80.2978 79.7475 79.1277 77.1786 77.9424C75.9833 77.391 75.0024 77.1383 74.3205 77.6054C71.8721 79.2602 69.4092 80.9092 66.9443 82.5595C65.4054 83.5899 63.8657 84.6207 62.3283 85.6538C62.2691 85.6931 62.2182 85.7439 62.1788 85.803C62.1393 85.8622 62.112 85.9286 62.0985 85.9984C62.094 86.1753 62.1399 86.3498 62.2308 86.5016C62.3216 86.6535 62.4538 86.7764 62.6119 86.8561C63.5697 87.3768 64.5199 87.8593 65.4471 88.2728C72.581 91.4737 79.8376 94.9274 87.1401 98.718C89.1324 99.7595 91.1401 100.862 93.1554 101.98C91.324 102.601 89.416 103.175 87.4926 103.696C78.2897 99.3307 69.0485 94.8126 59.746 89.9958C58.0449 89.1151 56.7576 88.7782 55.8151 89.4061C52.7664 91.4408 49.6957 93.4462 46.6233 95.4527C45.2553 96.346 43.8871 97.2396 42.5203 98.136C42.3349 98.2343 42.1928 98.3981 42.1218 98.5955C42.0375 98.8559 42.3134 99.2388 42.6582 99.4608C43.0582 99.7169 43.4785 99.9397 43.9149 100.127C49.6313 102.754 55.4089 105.687 61.2173 108.834L59.0039 109.18C67.3468 107.974 75.5387 106.551 83.4621 104.722C90.8241 103.139 97.9365 100.563 104.603 97.0638C110.846 93.5508 116.81 89.5647 122.442 85.1406C124.211 83.7901 125.995 82.4591 127.792 81.148ZM55.2561 109.719C50.4872 107.336 45.7183 104.935 40.9494 102.516C39.1257 101.59 37.846 101.314 36.8805 102.08C35.2585 103.312 33.5628 104.457 31.867 105.603C31.0554 106.151 30.2437 106.699 29.4401 107.257C29.2251 107.427 29.0366 107.628 28.8807 107.854C28.7045 108.107 29.0186 108.75 29.4707 108.98L29.5726 109.031C30.1738 109.335 30.7678 109.636 31.3481 109.868C33.2783 110.661 35.2389 111.59 37.2148 112.581C37.2713 112.572 37.3278 112.562 37.3844 112.553C43.3207 111.576 49.2579 110.598 55.2561 109.719ZM30.7879 113.634C30.6005 113.533 30.4132 113.432 30.2258 113.332C29.343 112.857 28.4592 112.382 27.5704 111.882C25.647 110.81 24.4746 110.787 23.5245 111.491C21.4409 113.032 19.3041 114.527 17.099 115.931C17.2519 115.905 17.4049 115.879 17.5579 115.853C21.7919 115.131 26.0402 114.406 30.306 113.712C30.4666 113.686 30.6272 113.66 30.7879 113.634ZM7.05446 118.246C5.94106 118.621 4.84046 119.034 3.75472 119.486C3.01494 119.925 2.14434 120.09 1.29499 119.953C0.951559 119.85 0.641989 119.657 0.398459 119.394C0.170691 119.138 0.0310316 118.816 0 118.475C0.100829 117.88 0.300233 117.305 0.590026 116.775C2.25438 113.835 4.06505 110.98 6.01521 108.221C7.76196 106.112 9.6873 104.157 11.7699 102.378C16.1913 98.312 20.628 94.261 25.1413 90.3019C28.6437 87.2312 31.912 83.9036 34.9189 80.3468C37.6113 77.2171 40.1334 73.945 42.4743 70.5448C45.0792 66.7973 47.8747 63.1857 50.8496 59.7243C53.3783 56.7301 55.999 53.8278 58.7345 51.0556C62.486 47.2672 66.5234 43.7726 70.8109 40.6027C72.9531 39.0067 75.0952 37.3988 77.2396 35.7892C81.999 32.2168 86.7697 28.6359 91.5769 25.1569C101.553 18.138 112.237 12.181 123.454 7.3831C128.921 4.90757 134.654 3.06784 140.541 1.9001C147.632 0.494527 154.854 -0.134576 162.081 0.0239378C164.919 0.0976902 167.734 0.13035 170.55 0.163036C170.951 0.167682 171.351 0.172329 171.752 0.177094C175.436 0.164205 179.116 0.420146 182.763 0.942876C186.15 1.47258 189.538 1.99193 192.921 2.51062C196.043 2.98923 199.161 3.46729 202.272 3.9524C203.276 4.10555 204.295 4.28934 205.337 4.54205C205.38 4.55422 205.423 4.56765 205.465 4.58231C205.438 4.57355 205.411 4.56529 205.383 4.55754C204.326 4.30483 203.307 4.12104 202.318 3.96789L200.64 3.70752L197.399 4.6188C195.384 5.18966 193.446 5.86793 191.509 6.54572C190.094 7.04083 188.681 7.53568 187.238 7.98824C182.982 9.32078 178.822 10.9403 174.786 12.8356C171.377 14.4469 168.182 16.318 164.988 18.1888C163.279 19.19 161.57 20.191 159.828 21.152C157.568 22.3919 155.321 23.6527 153.073 24.9144C146.294 28.7179 139.5 32.5295 132.296 35.8014C123.534 39.8003 115.075 44.1612 106.611 48.5251L105.891 48.8963C95.6994 54.1496 86.2589 60.3524 77.0331 66.8079C76.7352 67.0163 76.4373 67.2248 76.1395 67.4333C69.4126 72.1423 62.6918 76.8468 55.3246 80.8141C48.3203 84.5598 41.5954 88.8055 35.2024 93.5184C28.3596 98.5419 21.8923 104.002 15.5936 109.661C12.6298 112.496 9.43635 115.08 6.04587 117.388C5.28581 117.877 4.56199 118.406 3.83958 118.934C3.62247 119.093 3.40549 119.252 3.18768 119.409C3.00393 119.52 2.85722 119.683 2.76624 119.877C2.93234 119.816 3.09417 119.749 3.25511 119.682C3.39856 119.622 3.54131 119.563 3.68576 119.509C4.79391 119.048 5.91754 118.627 7.05446 118.246Z" fill="#F37316"/>
+          </svg>
+          <svg class="palma" width="200" height="156" viewBox="0 0 200 156" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M183.631 133.75C181.955 136.204 180.061 138.638 177.438 140.041C174.814 141.444 171.315 141.553 169.087 139.57C165.587 136.43 167.278 130.69 169.487 126.542C173.759 118.515 179.038 111.065 185.195 104.374C186.844 102.584 188.596 100.772 189.434 98.4786C190.272 96.1855 189.816 93.2379 187.767 91.9242C184.55 89.8666 180.57 93.0119 178.22 96.0207C170.585 105.805 164.829 116.917 157.533 126.961C150.237 137.004 140.921 146.266 129.08 149.971C124.191 151.511 117.885 151.587 114.993 147.358C112.916 144.321 113.514 140.06 115.464 136.938C117.414 133.816 120.466 131.58 123.447 129.404L161.598 101.76C165.107 99.2178 169.021 95.7947 168.465 91.5005C167.971 87.7336 163.901 85.2239 160.095 85.2757C156.29 85.3275 152.795 87.3051 149.677 89.4852C136.578 98.6433 127.182 112.016 117.131 124.442C107.08 136.868 95.465 149.011 80.3035 154.106C74.9294 155.904 69.042 156.742 63.5972 155.174C58.1525 153.607 53.2635 149.289 52.2273 143.714C51.2853 138.614 53.6403 133.355 57.1681 129.55C60.6959 125.746 65.3116 123.161 69.8379 120.632C89.4441 109.668 109.052 98.703 128.661 87.7383C131.016 86.4246 133.409 85.0685 135.1 82.9873C136.79 80.9061 137.634 77.8974 136.461 75.4866C134.501 71.4467 128.769 71.4985 124.394 72.4967C105.818 76.7344 89.1583 86.9567 73.898 98.3609C58.6376 109.765 44.3616 122.521 28.39 132.912C21.4428 137.433 12.0134 141.421 5.38173 136.448C0.14422 132.522 -0.378589 124.442 2.55573 118.584C5.49006 112.727 10.9819 108.644 16.4549 105.028C41.611 88.4776 69.9321 77.483 97.8718 66.239C100.698 65.0948 103.613 63.8847 105.803 61.7753C107.994 59.6658 109.317 56.3274 108.238 53.4693C106.468 48.7608 100.053 48.2899 95.1117 49.1281C68.2224 53.8366 45.704 74.8698 18.4661 76.6496C11.6225 77.0922 3.02673 74.8462 1.76916 68.1083C1.03441 64.1766 3.35643 60.1791 6.55922 57.7871C9.76202 55.3952 13.7278 54.3075 17.5994 53.3093C34.7144 48.8989 52.0552 45.4158 69.5459 42.8751C73.5777 42.2912 77.7648 41.7026 81.1937 39.499C84.6226 37.2954 87.0624 32.9635 85.7341 29.1119C83.8031 23.504 76.2671 22.8354 70.3466 23.1744C54.229 24.1161 38.1099 25.0453 21.9892 25.9619C16.8741 26.2585 11.5141 26.5081 6.87479 24.3374C2.23545 22.1668 -1.30646 16.7142 0.464494 11.9068C2.0235 7.66908 6.78059 5.66793 11.1138 4.42016C39.4915 -3.74921 71.3263 1.02056 96.0632 17.1333C115.577 29.8464 130.281 48.8267 149.286 62.3355C162.173 71.4843 176.75 77.7185 192.123 81.2452C197.95 82.5824 200.908 84.3387 199.754 90.7141C198.6 97.0895 196.673 103.696 194.883 109.873C192.424 118.379 188.626 126.439 183.631 133.75Z" fill="#E90C59"/>
+          </svg> 
+          <div class="center">
+            <h1 class="tittle-cta">Lorem ipsum dolor sit amet</h1>
+            <button class="primary-button"><a href="contact.html">Na kontaktoni</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-footer">
+        <div class="footer-wrapper">
+          <div class="top">
+            <div class="left">
+              <div class="logo footer"><img src="../assets/images/full-logo.svg" alt=""></div>
+              <div class="contact">
+                <div class="type"><img class="contact-icon" src="..//assets/images/mails.svg" alt=""><p class="method">pcwdinfo@gmail.com</p></div>
+                <div class="type"><img class="contact-icon" src="..//assets/images/mobil.svg" alt=""><p class="method">+383 49 300 300</p></div>
+              </div>
+            </div>
+            <div class="links">
+              <li class="footer-list">
+                <h3 class="title-link">Faqet</h3>
+                <ul class="link-list">
+                  <li class="link-item"><a href="index.html">Ballina</a></li>
+                  <li class="link-item"><a href="services.html">Sherbimet</a></li>
+                  <li class="link-item"><a href="about.html">Rreth Nesh</a></li>
+                  <li class="link-item"><a href="#projects">Projektet</a></li>
+                  <li class="link-item"><a href="contact.html">Kontakt</a></li>
+                </ul>
+              </li>
+              <li class="footer-list">
+                <h3 class="title-link">Sherbimet</h3>
+                <ul class="link-list">
+                  <li class="link-item">Web design</li>
+                  <li class="link-item">Krijimi i logos</li>
+                  <li class="link-item">Menaxhimi i rrjeteve sociale</li>
+                  <li class="link-item">Mirembajtje e webit</li>
+                  <li class="link-item">SEO</li>
+                </ul>
+              </li>  
+            </div>
+          </div>
+          <div class="bottom">
+            <p class="copyright">Copyright © 2024 | Prishtina Web Designs | All Rights Reserved</p>
+            <div class="socials">
+              <a target="_blank" href="https://www.instagram.com/rendrstudio.co/"><img class="social" src="../assets/images/ig-icon.svg" alt=""></a>
+              <a target="_blank" href="https://www.facebook.com/rendrstudio.co/"><img class="social" src="../assets/images/fb-icon.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="darkmode.js">
+    </script>
+  </body>
+</html>
